@@ -15,6 +15,7 @@ function App() {
             <Route exact path="/" component={ListEmployee} />
             <Route path="/employees" component={ListEmployee} />
             <Route path="/add-employee" component={AddEmployee} />
+            <Route path="/edit-employee/:id" component={AddEmployee} />
             <Route path="*">
               <div className="page404">
                 <h5>404</h5>

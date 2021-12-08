@@ -28,15 +28,15 @@ public class Employee {
     @Column(name = "email_id")
     private String emailId;
 
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
-    }
-
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
-    }
-
-    public void setEmailId(String emailId) {
-        this.emailId = emailId;
-    }
+//    public void setFirstName(String firstName) {
+//        this.firstName = firstName;
+//    }
+//
+//    public void setLastName(String lastName) {
+//        this.lastName = lastName;
+//    }
+//
+//    public void setEmailId(String emailId) {
+//        this.emailId = emailId;
+//    }
 }
